@@ -1,0 +1,32 @@
+
+**** Busqueda de Sitios****
+https://publicwww.com/
+
+****Pagina encontrada**** SITIO FINALMENTE UTILIZADO.
+
+https://laboratoriodelformaggio.com/
+
+
+
+**** Comandos a Utilizar **** 
+
+for (let k in window) if (typeof window[k] == 'function') console.log(k);
+
+
+
+console.log('CryptoJS.MD5:', typeof (window.CryptoJS && window.CryptoJS.MD5));
+
+
+const plain = '12345';
+
+
+const hash = CryptoJS.MD5(plain).toString();
+console.log('MD5 de', plain, '=>', hash);
+
+Con esto se puede realizar del punto 2.1 al 2.3 del laboratorio.
+
+
+Por hacer, 
+-crear tabla que compare algoritmos para asi concluir.
+-Ocupar repeater para verificar el hth 
+-documentar las pruebas realizadas el 15/10, vulnerabilidades MD5
